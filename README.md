@@ -14,24 +14,3 @@ It is fairly hard to perform Azure Infra authorization without having the access
 3. Consent grant shall be possible to limit to a particular permission or set of permissions (GroupMember.Read.All).
 4. Consent grant shall be duty wise segregated and Identity granting grant shall not be able to request or configure API permissions.
 5. Consent grant execution shall fit in into existing Onboarding Automation process.
- 
-
-# High level design
-. tba .
-Automating Admin Consent Grant in Azure AD streamlines Cloud Onboarding
-
-# Code
-
-# References
-Reference:
-Manage app consent policies - Azure AD | Microsoft Docs
-App consent permissions for custom roles in Azure Active Directory | Microsoft Docs
-Default user permissions - Azure Active Directory | Microsoft Docs
-Supported conditions: https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/manage-app-consent-policies#supported-conditions
-ResourceApplication: Common Microsoft Resources in Azure Active Directory | Shawn Tabrizi
-Permissions: Microsoft Graph App and Scope permissions. - matthewdavis111
-
-# Credits
-(Pete Skelly: Grant Admin Consent to Azure AD Apps in Azure Pipelines)[https://peteskelly.com/grant-admin-consent-from-azure-pipelines/]
-(Delegating App Registration Admin Consent permissions in Azure AD)[https://rakhesh.com/azure/delegating-app-registration-admin-consent-permissions-in-azure-ad/]
-
