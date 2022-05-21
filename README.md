@@ -9,8 +9,10 @@ When managing Authorization using CI/CD, Your automats need to be able to read d
 It is fairly hard to perform Azure Infra authorization without having the access to read at least _Groups_. Even harder it is to use ITSM tools to request suitable MS Graph API Access and that Tenant Admins would also greate Admin Consent for the registered Application. Especially in a process that is otherwise completely automated.
 
 # Requirements
-1. Consent grant shall be automated and require 0 manual work.
-2. Consent grant shall be possible to limit to a particular API (MS Graph API).
-3. Consent grant shall be possible to limit to a particular permission or set of permissions (GroupMember.Read.All).
-4. Consent grant shall be duty wise segregated and Identity granting grant shall not be able to request or configure API permissions.
-5. Consent grant execution shall fit in into existing Onboarding Automation process.
+1. Consent grant execution shall fit in into existing Cloud Onboarding Automation process.
+2. Consent grant execution shall fit in into existing Cloud Onboarding Automation tooling.
+3. Consent grant shall be automated and require zero manual work.
+4. Consent grant shall be possible to limit to a particular API (MS Graph API).
+5. Consent grant shall be possible to limit to a particular permission or set of permissions (GroupMember.Read.All).
+6. Consent grant shall be role wise segregated and Identity granting grant shall not be able to request or configure API permissions or perform any other Azure Application registration related actions.
+7. Consent grant actions shall be auditable.
